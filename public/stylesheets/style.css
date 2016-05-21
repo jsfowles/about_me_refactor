@@ -1,23 +1,29 @@
 *{
+  color:black;
 }
 
 body {
   background-image: url(/images/background.jpg);
-  background-repeat: repeat;
-  background-size: 100% 100%;
+  position: relative;
+  background-size: 120%;
+  background-repeat: no-repeat;
 
 }
 
 html{
   background-color: white;
-  color: gray;
-  font-family:sans-serif;
+  
 }
-.homelist li{
+.menulist li{
   display: inline;
-  padding: 30px;
-  vertical-align: bottom;;
+
  }
+
+.menu ul{
+  margin-top:0px;
+
+}
+
 
 #homediv1{
   display:inline-block;
@@ -32,10 +38,6 @@ html{
 
 }
 
-nav div ul{
-  margin-left: 500px;
-
-}
 
 .imgmiddle{
   vertical-align: bottom;
