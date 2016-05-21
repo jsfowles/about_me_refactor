@@ -1,27 +1,31 @@
 *{
+  color:black;
 }
 
 body {
   background-image: url(/images/background.jpg);
-  background-repeat: repeat;
-  background-size: 100% 100%;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
 
 }
 
-html{
-  background-color: white;
-  color: gray;
-  font-family:sans-serif;
+.menulist li{
+  display: inline-block;
+  font-size: 20px;
+  padding:1.5em;
+
 }
-.homelist li{
-  display: inline;
-  padding: 30px;
-  vertical-align: bottom;;
- }
+
+.menu {
+  margin-left:9.5em;
+  color:white;
+
+}
+
 
 #homediv1{
   display:inline-block;
-  margin-top: 100px;
   margin-left: 200px;
 }
 
@@ -32,10 +36,6 @@ html{
 
 }
 
-nav div ul{
-  margin-left: 500px;
-
-}
 
 .imgmiddle{
   vertical-align: bottom;
@@ -43,8 +43,20 @@ nav div ul{
   height: 275px;
 
 }
+<<<<<<< HEAD
 
 .twitter {
   width: 30em;
 
+=======
+ a{
+   color:black;
+ }
+
+.main{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+>>>>>>> e4697cfb4c6b5aeea5e93872db2ba69491e4ba5e
 }
