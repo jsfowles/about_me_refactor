@@ -1,0 +1,45 @@
+*{
+}
+
+body {
+  background-image: url(/images/background.jpg);
+  background-repeat: repeat;
+  background-size: 100% 100%;
+
+}
+
+html{
+  background-color: white;
+  color: gray;
+  font-family:sans-serif;
+}
+.homelist li{
+  display: inline;
+  padding: 30px;
+  vertical-align: bottom;;
+ }
+
+#homediv1{
+  display:inline-block;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+#homediv2 {
+  display:inline-block;
+  margin-left: 100px;
+
+
+}
+
+nav div ul{
+  margin-left: 500px;
+
+}
+
+.imgmiddle{
+  vertical-align: bottom;
+  width: 275px;
+  height: 275px;
+
+}
