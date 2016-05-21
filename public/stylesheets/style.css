@@ -5,29 +5,27 @@
 body {
   background-image: url(/images/background.jpg);
   position: relative;
-  background-size: 120%;
+  background-size: cover;
   background-repeat: no-repeat;
 
 }
 
-html{
-  background-color: white;
-  
-}
 .menulist li{
-  display: inline;
+  display: inline-block;
+  font-size: 20px;
+  padding:1.5em;
 
- }
+}
 
-.menu ul{
-  margin-top:0px;
+.menu {
+  margin-left:9.5em;
+  color:white;
 
 }
 
 
 #homediv1{
   display:inline-block;
-  margin-top: 100px;
   margin-left: 200px;
 }
 
@@ -44,4 +42,14 @@ html{
   width: 275px;
   height: 275px;
 
+}
+ a{
+   color:black;
+ }
+
+.main{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
